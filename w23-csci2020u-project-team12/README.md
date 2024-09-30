@@ -1,109 +1,71 @@
-## readme.md
+### Project Overview
 
+"Type Racer" is a real-time web-based typing game designed to bring players into a virtual room where they compete by typing a randomly generated text as fast as possible. The game tracks each player's typing speed in Words Per Minute (WPM) and displays a leaderboard at the end.
 
+Real-time communication between players and the server is handled using WebSockets and REST APIs. The server manages game state, including the text to be typed, player scores, and the leaderboard. On the client side, JavaScript updates the user interface and interacts with the server to display real-time game results.
 
-
-### Project Information
-
-The project is a real-time web-based typing game called "Type Racer". The goal of the game is to bring people to a specific room and give them a randomly generated text, which they all start typing as fast as possible. The website records their Word Per Minute (WPM) and speed and makes a leaderboard at the end. The project uses websockets and RestAPI to handle the real-time communication between the players and the server. The server keeps track of the game state, including the text to be typed, the scores of the players, and the current leaderboard. The client-side JavaScript code handles the user interface of the game and interacts with the server through websockets to update the game state and display the results to the players.
-
-The code was adapted from (https://github.com/WebDevSimplified/JS-Speed-Typing-Game), This guided the work
+This project was adapted from [WebDevSimplified's JS-Speed-Typing-Game](https://github.com/WebDevSimplified/JS-Speed-Typing-Game).
 
 &nbsp;
 
 ![Website 1](./TypeRacerWebSocket/src/main/webapp/img/Website_1.png)
 
-This figure is the base website
+*Base website layout.*
 
 &nbsp;
 
 ![Website 2](./TypeRacerWebSocket/src/main/webapp/img/Website_2png.png)
 
-This is a figure of the running website
+*Running website example.*
 
 
-&nbsp;
-
-
-
-
-### How To Run
+### How to Run
 
 1. Clone this repository into your desired folder.
 
-2. Launch this repository in intelliJ with administrator privileges.
+2. Open the project in IntelliJ IDEA with administrator privileges.
 
-3. Add a configuration to open a local GlassFish server with OpenJDK and also have a configuration to run a remote server.
+3. Set up a configuration to launch a local GlassFish server with OpenJDK, and optionally, configure for a remote server.
 
-4. Launch any .html page through intelliJ by running it as the current file, which is in the same drop down as the GlassFish configuration, then hit the 'play' button.
+4. Open and run any `.html` page via IntelliJ by selecting it as the current file (same dropdown as the GlassFish configuration) and hitting the 'play' button.
 
-5. Navigate to index.html in the 'TypeRacerWebsocket' file with the navigation bar
+5. Navigate to the `index.html` file inside the `TypeRacerWebSocket` directory via the navigation bar.
 
-6. When on the website create a new room by typing a code of your choosing or join an existing room in the same server
+6. Create a new room by entering a room code or join an existing room.
 
-7. Once in the room, begin the typing with the goal being speed, so make sure you are quick. They are also measures to ensure accuracy as the game does not end until the quote generated is typed completely
+7. Once in a room, start typing the provided text as quickly and accurately as possible. The game only ends once the entire quote has been typed correctly.
 
-8. After being prompted for a username insert one in and your leaderboard position is uploaded.
+8. After being prompted, enter your username. Your leaderboard position will be uploaded.
 
-9. You can start the game again by refreshing or entering another room.
-
-
+9. To play again, refresh the page or join a different room.
 
 &nbsp;
 
-![Client 1](./TypeRacerWebSocket/src/main/webapp/img/WebSocket_Configuration.jpeg)
+![WebSocket Configuration](./TypeRacerWebSocket/src/main/webapp/img/WebSocket_Configuration.jpeg)
 
-This figure is the WebSocket Configuration used to run the game
-
-&nbsp;
-
-![Client 2](./TypeRacerWebSocket/src/main/webapp/img/ResourceAPI_configuration.jpeg)
-
-This figure is the ResourceAPI Configuration used to run the game
+*WebSocket configuration used to run the game.*
 
 &nbsp;
 
+![Resource API Configuration](./TypeRacerWebSocket/src/main/webapp/img/ResourceAPI_configuration.jpeg)
 
+*Resource API configuration used to run the game.*
 
 ### Resources
 
-[w3Schools](https://www.w3schools.com/)
-
-- General css documentation
-
-[Coolors](https://coolors.co/eae8ff-d8d5db-adacb5-2d3142-b0d7ff)
-
-- Colour pallette help
-
-[WebDevSimplified](https://github.com/WebDevSimplified/JS-Speed-Typing-Game)
-- Helpful Guide
-
-[webtoolkit](https://www.webtoolkit.eu/wt)
-
-- Scrollbar manipulation
-
-[GoodReads](https://www.goodreads.com/quotes?page=1)
-
-- Quotes Storage
-
-
-[BackGround](https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini-dark.png)
-
-- The BackGround Picture for the website
-
-[Youtube Video](https://youtu.be/P-CLCK5xBrI)
-
-- The Finalized YouTube Video
-
-
-&nbsp;
+- [w3Schools](https://www.w3schools.com/): General CSS documentation
+- [Coolors](https://coolors.co/eae8ff-d8d5db-adacb5-2d3142-b0d7ff): Color palette assistance
+- [WebDevSimplified](https://github.com/WebDevSimplified/JS-Speed-Typing-Game): Helpful guide
+- [WebToolkit](https://www.webtoolkit.eu/wt): Scrollbar manipulation resources
+- [GoodReads](https://www.goodreads.com/quotes?page=1): Source of quotes
+- [Background Image](https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini-dark.png): Background image used for the website
+- [YouTube Video](https://youtu.be/P-CLCK5xBrI): Final project demo video
 
 
 ### Credits
 
-This assignment was completed by:
-
-- Parsa Zahraei Mohammadabady 100749173
-- Clayton Cotter-Wasmund 100824037
-- Daniel Baba 100828105
-- Raihan Mosharrof 100823087
+This project was completed by:
+- Parsa Zahraei Mohammadabady
+- Clayton Cotter-Wasmund
+- Daniel Baba
+- Raihan Mosharrof
