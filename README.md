@@ -1,6 +1,6 @@
 ### Project Overview
 
-"Type Racer" is a real-time web-based typing game designed to bring players into a virtual room where they compete by typing a randomly generated text as fast as possible. The game tracks each player's typing speed in Words Per Minute (WPM) and displays a leaderboard at the end.
+TypeRacer.com is a real-time web-based typing game designed to bring players into a virtual room where they compete by typing a randomly generated text as fast as possible. The game tracks each player's typing speed in Words Per Minute (WPM) and displays a leaderboard at the end.
 
 Real-time communication between players and the server is handled using WebSockets and REST APIs. The server manages game state, including the text to be typed, player scores, and the leaderboard. On the client side, JavaScript updates the user interface and interacts with the server to display real-time game results.
 
